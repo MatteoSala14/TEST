@@ -41,7 +41,7 @@
         "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
         "type": "https://w3id.org/ontoeng/factory#Conveyor",
         "representations": [{"file": "Conveyor2.glb", "unit": 1}],
-        "position": [26, 0, 210],
+        "position": [26, 0, 315],
         "rotation": [0, 0, 0],
         "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
       },
