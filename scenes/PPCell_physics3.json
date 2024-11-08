@@ -15,14 +15,14 @@
     ],
     "assets": [
         {
-        "id": "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
+        "id": "https://w3id.org/ontoeng/ex/Physics#PickPlaceRobot",
         "type": "https://w3id.org/ontoeng/factory#Robot",
         "representations": [{"file": "Pick_and_Place_Robot.glb", "unit": 1}],
         "position": [20, 0, 400],
         "rotation": [0, 0, 0],
       },
       {
-        "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
+        "id": "https://w3id.org/ontoeng/ex/Physics#Conveyor1",
         "type": "https://w3id.org/ontoeng/factory#Conveyor",
         "representations": [{"file": "Conveyor.glb", "unit": 1}],
         "position": [7, 0, 285],
