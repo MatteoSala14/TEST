@@ -5,8 +5,8 @@
     },
     "scene": [
         "https://w3id.org/ontoeng/ex/Physics#B1",
-        "https://w3id.org/ontoeng/ex/Physics#Conveyor1",
-        "https://w3id.org/ontoeng/ex/Physics#Conveyor2",
+        "https://w3id.org/ontoeng/ex/Physics#B2",
+        "https://w3id.org/ontoeng/ex/Physics#B3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
@@ -14,23 +14,20 @@
         "https://w3id.org/ontoeng/ex/Physics#pallet_4"
     ],
     "assets": [
-        {
-        "id": "https://w3id.org/ontoeng/ex/Physics#PickPlaceRobot",
-        "type": "https://w3id.org/ontoeng/factory#Robot",
-        "representations": [{"file": "Pick_and_Place_Robot.glb", "unit": 1}],
-        "position": [20, 0, 400],
-        "rotation": [0, 0, 0],
-      },
       {
-        "id": "https://w3id.org/ontoeng/ex/Physics#Conveyor1",
-        "type": "https://w3id.org/ontoeng/factory#Conveyor",
+        "id": "https://w3id.org/ontoeng/ex/Physics#B2",
+        "type": "https://w3id.org/ontoeng/factory#BufferElement",
+        "descr": "Conveyor Buffer with capacity of 5 pallets",
+        "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
         "representations": [{"file": "Conveyor.glb", "unit": 1}],
         "position": [7, 0, 285],
         "rotation": [0, 0, 0],
       },
       {
-        "id": "https://w3id.org/ontoeng/ex/Physics#Conveyor2",
-        "type": "https://w3id.org/ontoeng/factory#Conveyor",
+            "id": "https://w3id.org/ontoeng/ex/Physics#B3",
+            "type": "https://w3id.org/ontoeng/factory#BufferElement",
+            "descr": "Conveyor sliding",
+            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer",
         "representations": [{"file": "Conveyor2.glb", "unit": 1}],
         "position": [26, 0, 315],
         "rotation": [0, 0, 0],
