@@ -14,7 +14,7 @@
     ],
     "assets": [
       {
-        "id": "https://w3id.org/ontoeng/ex/Physics#B2",
+        "id": "https://w3id.org/ontoeng/ex/Physics#B1",
         "type": "https://w3id.org/ontoeng/factory#BufferElement",
         "descr": "Conveyor Buffer with capacity of 5 pallets",
         "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
