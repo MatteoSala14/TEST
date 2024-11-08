@@ -80,7 +80,7 @@
         "representations": [{"file": "Pallet.glb", "unit": 1}],
         "position": [34, 23, 303],
         "rotation": [0, 0, 0],
-        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
         "properties": {
           "mass": 1,
           "restitution": 0.3,
@@ -94,7 +94,7 @@
         "representations": [{"file": "Pallet.glb", "unit": 1}],
         "position": [34, 23, 368],
         "rotation": [0, 0, 0],
-        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
         "properties": {
           "mass": 1,
           "restitution": 0.3,
