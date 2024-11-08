@@ -19,7 +19,7 @@
             "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
             "representations": [
                 {
-                    "file": "Conveyor_Main.glb",
+                    "file": "Conveyor.glb",
                     "unit": 1
                 }
             ],
