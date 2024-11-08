@@ -5,7 +5,7 @@
     },
     "scene": [
         "https://w3id.org/ontoeng/ex/Physics#B1",
-        "https://w3id.org/ontoeng/ex/Physics#B2",
+        "https://w3id.org/ontoeng/ex/Physics#B1",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
