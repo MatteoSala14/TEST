@@ -6,9 +6,6 @@
     },
     "scene": [
       "https://w3id.org/ontoeng/ex/Factory#building",
-      "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
-      "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
-      "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
       "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
       "https://w3id.org/ontoeng/ex/Factory#Pallet",
       "https://w3id.org/ontoeng/ex/Factory#PalletA",
