@@ -5,10 +5,10 @@
     },
     "scene": [
         "https://w3id.org/ontoeng/ex/Factory#building",
-      "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
-      "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
-      "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
-      "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+        "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
+        "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
+        "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
+        "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
@@ -16,27 +16,19 @@
         "https://w3id.org/ontoeng/ex/Physics#pallet_4"
     ],
     "assets": [
-        {
-        "id": "https://w3id.org/ontoeng/ex/Factory#building",
-        "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
-        "position": [0, 0, 0],
-        "rotation": [0, 0, 0]
-      },
-      {
+     {
         "id": "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
         "type": "https://w3id.org/ontoeng/factory#Robot",
         "representations": [{"file": "Pick_and_Place_Robot.glb", "unit": 1}],
         "position": [20, 0, 400],
         "rotation": [0, 0, 0],
-        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
-      },
+    },
        {
         "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
         "type": "https://w3id.org/ontoeng/factory#Conveyor",
         "representations": [{"file": "Conveyor.glb", "unit": 1}],
         "position": [7, 0, 285],
         "rotation": [0, 0, 0],
-        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
           "properties": {
           "mass": 0,
           "velocity": [0, 0, 5],
@@ -49,7 +41,6 @@
         "representations": [{"file": "Conveyor2.glb", "unit": 1}],
         "position": [26, 0, 315],
         "rotation": [0, 0, 0],
-        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
       },
         {
             "id": "https://w3id.org/ontoeng/ex/Physics#B1",
