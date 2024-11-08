@@ -1,0 +1,101 @@
+{
+    "context": {
+      "UnitOfMeasureScale": 0.01,
+      "Zup": false,
+      "RepoPath": ""
+    },
+    "scene": [
+      "https://w3id.org/ontoeng/ex/Factory#building",
+      "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
+      "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
+      "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
+      "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+      "https://w3id.org/ontoeng/ex/Factory#Pallet",
+      "https://w3id.org/ontoeng/ex/Factory#PalletA",
+      "https://w3id.org/ontoeng/ex/Factory#PalletB"
+    ],
+    "assets": [
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#building",
+        "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
+        "position": [0, 0, 0],
+        "rotation": [0, 0, 0]
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
+        "type": "https://w3id.org/ontoeng/factory#Robot",
+        "representations": [{"file": "Pick_and_Place_Robot.glb", "unit": 1}],
+        "position": [20, 0, 400],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
+        "type": "https://w3id.org/ontoeng/factory#Conveyor",
+        "representations": [{"file": "Conveyor.glb", "unit": 1}],
+        "position": [7, 0, 285],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
+        "type": "https://w3id.org/ontoeng/factory#Conveyor",
+        "representations": [{"file": "Conveyor2.glb", "unit": 1}],
+        "position": [26, 0, 210],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+        "type": "https://w3id.org/ontoeng/factory#Conveyor",
+        "representations": [{"file": "Conveyor.glb", "unit": 1}],
+        "position": [26, 0, 315],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
+        "properties": {
+          "mass": 0,
+          "velocity": [0, 0, 5],
+          "restitution": 0.3,
+          "friction": 0.3
+        }
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#Pallet",
+        "descr": "Pallet for the main hinge assembly",
+        "type": "https://w3id.org/ontoeng/factory#Pallet",
+        "representations": [{"file": "Pallet.glb", "unit": 1}],
+        "position": [50, 0, 300],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#PalletA",
+        "descr": "Pallet for the main hinge assembly",
+        "type": "https://w3id.org/ontoeng/factory#Pallet",
+        "representations": [{"file": "Pallet.glb", "unit": 1}],
+        "position": [34, 23, 303],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
+        "properties": {
+          "mass": 1,
+          "restitution": 0.3,
+          "friction": 0.3
+        }
+      },
+      {
+        "id": "https://w3id.org/ontoeng/ex/Factory#PalletB",
+        "descr": "Pallet for the main hinge assembly",
+        "type": "https://w3id.org/ontoeng/factory#Pallet",
+        "representations": [{"file": "Pallet.glb", "unit": 1}],
+        "position": [34, 23, 368],
+        "rotation": [0, 0, 0],
+        "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
+        "properties": {
+          "mass": 1,
+          "restitution": 0.3,
+          "friction": 0.3
+        }
+      }
+    ]
+  }
+  
