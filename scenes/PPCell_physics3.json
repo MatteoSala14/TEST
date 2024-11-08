@@ -19,18 +19,64 @@
         "type": "https://w3id.org/ontoeng/factory#BufferElement",
         "descr": "Conveyor Buffer with capacity of 5 pallets",
         "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
-        "representations": [{"file": "Conveyor.glb", "unit": 1}],
-        "position": [7, 0, 285],
-        "rotation": [0, 0, 0],
+        "representations": [
+                {
+                    "file": "Conveyor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                7,
+                0,
+                285
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "properties": {
+                "mass": 0,
+                "velocity": [
+                    0,
+                    0,
+                    5
+                ],
+                "restitution": 0.3,
+                "friction": 0.3
+            }
       },
       {
-            "id": "https://w3id.org/ontoeng/ex/Physics#B3",
-            "type": "https://w3id.org/ontoeng/factory#BufferElement",
-            "descr": "Conveyor sliding",
-            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer",
-        "representations": [{"file": "Conveyor2.glb", "unit": 1}],
-        "position": [26, 0, 315],
-        "rotation": [0, 0, 0],
+        "id": "https://w3id.org/ontoeng/ex/Physics#B3",
+        "type": "https://w3id.org/ontoeng/factory#BufferElement",
+        "descr": "Conveyor sliding",
+        "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer",
+        "representations": [
+                {
+                    "file": "Conveyor2.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                26,
+                0,
+                315
+            ],
+            "rotation": [
+                0,
+                0,
+                0
+            ],
+            "properties": {
+                "mass": 0,
+                "velocity": [
+                    0,
+                    0,
+                    5
+                ],
+                "restitution": 0.3,
+                "friction": 0.3
+            }
       },
         {
             "id": "https://w3id.org/ontoeng/ex/Physics#B1",
