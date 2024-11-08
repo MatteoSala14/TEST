@@ -29,7 +29,7 @@
         "rotation": [0, 0, 0],
       },
       {
-        "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
+        "id": "https://w3id.org/ontoeng/ex/Physics#Conveyor2",
         "type": "https://w3id.org/ontoeng/factory#Conveyor",
         "representations": [{"file": "Conveyor2.glb", "unit": 1}],
         "position": [26, 0, 315],
