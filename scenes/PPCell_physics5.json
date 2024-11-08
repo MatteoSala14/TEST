@@ -12,7 +12,6 @@
         "id": "https://w3id.org/ontoeng/ex/Physics#Conveyor1",
         "type": "https://w3id.org/ontoeng/factory#BufferElement",
         "descr": "Conveyor Buffer with capacity of 5 pallets",
-        "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
         "representations": [ { "file": "Conveyor.glb", "unit": 1 } ], 
         "position": [7, 0, 285], 
         "rotation": [0, 0, 0], 
