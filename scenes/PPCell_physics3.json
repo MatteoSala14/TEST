@@ -4,11 +4,7 @@
         "Zup": false
     },
     "scene": [
-        "https://w3id.org/ontoeng/ex/Factory#building",
-        "https://w3id.org/ontoeng/ex/Factory#PickPlaceRobot",
-        "https://w3id.org/ontoeng/ex/Factory#Conveyor1",
-        "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
-        "https://w3id.org/ontoeng/ex/Factory#Conveyor3",
+        "https://w3id.org/ontoeng/ex/Physics#B1",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
