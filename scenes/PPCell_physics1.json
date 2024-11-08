@@ -36,6 +36,11 @@
         "position": [7, 0, 285],
         "rotation": [0, 0, 0],
         "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
+          "properties": {
+          "mass": 0,
+          "velocity": [0, 0, 5],
+          "restitution": 0.3,
+          "friction": 0.3
       },
       {
         "id": "https://w3id.org/ontoeng/ex/Factory#Conveyor2",
