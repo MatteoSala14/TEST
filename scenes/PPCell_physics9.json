@@ -92,7 +92,7 @@
         {
 			"id": "https://w3id.org/ontoeng/ex/Physics#B3",
 			"type": "https://w3id.org/ontoeng/factory#BufferElement",
-			"descr": "Conveyor Buffer with capacity of 5 pallets",
+			"descr": "Conveyor slider",
 			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
 			"representations": [
 				{
@@ -103,7 +103,7 @@
 			"position": [
 				26,
 				0,
-				3215
+				315
 			]
 		},
 		{
