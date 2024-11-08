@@ -5,7 +5,7 @@
     },
     "scene": [
         "https://w3id.org/ontoeng/ex/Physics#B1",
-        "https://w3id.org/ontoeng/ex/Physics#B1",
+        "https://w3id.org/ontoeng/ex/Physics#B2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
@@ -46,16 +46,10 @@
             }
       },
       {
-            "id": "https://w3id.org/ontoeng/ex/Physics#B1",
-            "type": "https://w3id.org/ontoeng/factory#BufferElement",
-            "descr": "Conveyor Buffer with capacity of 5 pallets",
+            "id": "https://w3id.org/ontoeng/ex/Physics#B2",
+            "type": "https://w3id.org/ontoeng/factory#Pallet",
+            "descr": "Conveyor1",
             "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
-            "representations": [
-                {
-                    "file": "Conveyor.glb",
-                    "unit": 1
-                }
-            ],
             "position": [
                 26,
                 0,
@@ -65,17 +59,7 @@
                 0,
                 0,
                 0
-            ],
-            "properties": {
-                "mass": 0,
-                "velocity": [
-                    0,
-                    0,
-                    5
-                ],
-                "restitution": 0.3,
-                "friction": 0.3
-            }
+            ]
         },
         {
             "id": "https://w3id.org/ontoeng/demo/DFLibProduct#PalletA",
