@@ -5,7 +5,6 @@
     },
     "scene": [
         "https://w3id.org/ontoeng/ex/Physics#B1",
-        "https://w3id.org/ontoeng/ex/Physics#B2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_3",
         "https://w3id.org/ontoeng/ex/Physics#pallet_2",
         "https://w3id.org/ontoeng/ex/Physics#pallet_1",
@@ -46,22 +45,6 @@
             }
       },
       {
-            "id": "https://w3id.org/ontoeng/ex/Physics#B2",
-            "type": "https://w3id.org/ontoeng/factory#Pallet",
-            "descr": "Conveyor1",
-            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
-            "position": [
-                26,
-                0,
-                315
-            ],
-            "rotation": [
-                0,
-                0,
-                0
-            ]
-        },
-        {
             "id": "https://w3id.org/ontoeng/demo/DFLibProduct#PalletA",
             "type": "https://w3id.org/ontoeng/factory#PalletType",
             "representations": [
