@@ -64,7 +64,7 @@
         "descr": "Pallet for the main hinge assembly",
         "type": "https://w3id.org/ontoeng/factory#Pallet",
         "representations": [{"file": "Pallet.glb", "unit": 1}],
-        "position": [50, 0, 300],
+        "position": [0, 0, 0],
         "rotation": [0, 0, 0],
         "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building"
       },
