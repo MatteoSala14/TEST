@@ -27,7 +27,7 @@
         "placementRelTo": "https://w3id.org/ontoeng/ex/Factory#building",
         "properties": {
           "mass": 0,
-          "velocity": [0, 0, 5],
+          "velocity": [0, 0, 2],
           "restitution": 0.3,
           "friction": 0.3
         }
