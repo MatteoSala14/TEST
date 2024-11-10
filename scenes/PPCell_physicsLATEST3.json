@@ -121,7 +121,7 @@
 			"type": "https://w3id.org/ontoeng/factory#PalletType",
 			"representations": [
 				{
-					"file": "Pallet.glb",
+					"file": "Part.glb",
 					"unit": 1
 				}
 			]
