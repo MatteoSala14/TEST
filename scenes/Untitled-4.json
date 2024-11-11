@@ -49,6 +49,7 @@
             ],
             "position": [34, 23, 372],
             "rotation": [0, 0, 0],
+            "placementRelTo": "building",
             "properties": {
                 "mass": 1,
                 "restitution": 0.3,
@@ -66,6 +67,7 @@
             ],
             "position": [34, 23, 437],
             "rotation": [0, 0, 0],
+            "placementRelTo": "building",
             "properties": {
                 "mass": 1,
                 "restitution": 0.3,
@@ -82,7 +84,8 @@
                 }
             ],
             "position": [0, 23, 0],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         },
         {
             "id": "part_4",
@@ -94,7 +97,8 @@
                 }
             ],
             "position": [0, 23, -20],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         },
         {
             "id": "part_5",
@@ -106,7 +110,8 @@
                 }
             ],
             "position": [0, 23, -40],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         },
         {
             "id": "B2",
@@ -120,6 +125,7 @@
             ],
             "position": [7, 0, 285],
             "rotation": [0, 0, 0],
+            "placementRelTo": "building",
             "properties": {
                 "mass": 0,
                 "velocity": [0, 0, 5],
@@ -138,7 +144,8 @@
                 }
             ],
             "position": [26, 0, 315],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         },
         {
             "id": "PickPlaceRobot",
@@ -151,7 +158,8 @@
                 }
             ],
             "position": [20, 0, 400],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         },
         {
             "id": "part",
@@ -164,6 +172,7 @@
             ],
             "position": [0, 0, 0],
             "rotation": [0, 0, 0],
+            "placementRelTo": "building",
             "properties": {
                 "mass": 1,
                 "restitution": 0.3,
@@ -174,7 +183,8 @@
             "id": "building",
             "type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding",
             "position": [0, 0, 0],
-            "rotation": [0, 0, 0]
+            "rotation": [0, 0, 0],
+            "placementRelTo": "building"
         }
     ]
 }
