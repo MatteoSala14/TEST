@@ -1,1 +1,172 @@
-{"context": { "UnitOfMeasureScale": 0.01,"Zup": false, "RepoPath": ""},"scene": ["B1","part_1","part_2","part_3","part_4","part_5","B2","B3","PickPlaceRobot","part"], "assets": [{"id": "B1", "type": "https://w3id.org/ontoeng/factory#BufferElement", "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5", "representations": [{"file": "Conveyor.glb", "unit": 1}], "position": [26,0,315], "rotation": [0,0,0], "properties": {"mass": 0,  "velocity": [0,0,-5],  "restitution": 0.3, "friction": 0.3 }},{"id": "part_1", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [34,23,372], "rotation": [0,0,0], "properties": {"mass": 1, "restitution": 0.3, "friction": 0.3}},{"id": "part_2", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [34,23,437], "rotation": [0,0,0], "properties": {"mass": 1, "restitution": 0.3, "friction": 0.3}},{"id": "part_3", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [0,23,0], "rotation": [0,0,0]},{"id": "part_4", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [0,23,-20], "rotation": [0,0,0]},{"id": "part_5", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [0,23,-40], "rotation": [0,0,0]},{"id": "B2", "type": "https://w3id.org/ontoeng/factory#BufferElement", "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5", "representations": [{"file": "Conveyor.glb", "unit": 1}], "position": [7,0,285], "rotation": [0,0,0], "properties": {"mass": 0,  "velocity": [0,0,5],  "restitution": 0.3, "friction": 0.3 }},{"id": "B3", "type": "https://w3id.org/ontoeng/factory#BufferElement", "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5", "representations": [{"file": "Conveyor2.glb", "unit": 1}], "position": [26,0,315], "rotation": [0,0,0], "properties": {"mass": 0,  "velocity": [0,0,-5],  "restitution": 0.3, "friction": 0.3 }},{"id": "PickPlaceRobot", "type": "https://w3id.org/ontoeng/factory#Robot", "model": "https://w3id.org/ontoeng/demo/DFLibStations#Robot", "representations": [{"file": "Pick_and_Place_Robot.glb", "unit": 1}], "position": [20,0,400], "rotation": [0,0,0]},{"id": "part", "type": "https://w3id.org/ontoeng/factory#Part", "representations": [{"file": "Part.glb", "unit": 1}], "position": [0,0,0], "rotation": [0,0,0], "properties": {"mass": 1, "restitution": 0.3, "friction": 0.3}}]}
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "B1",
+        "part_1",
+        "part_2",
+        "part_3",
+        "part_4",
+        "part_5",
+        "B2",
+        "B3",
+        "PickPlaceRobot",
+        "part"
+    ],
+    "assets": [
+        {
+            "id": "B1",
+            "type": "https://w3id.org/ontoeng/factory#BufferElement",
+            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+            "representations": [
+                {
+                    "file": "Conveyor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [26, 0, 315],
+            "rotation": [0, 0, 0],
+            "properties": {
+                "mass": 0,
+                "velocity": [0, 0, -5],
+                "restitution": 0.3,
+                "friction": 0.3
+            }
+        },
+        {
+            "id": "part_1",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [34, 23, 372],
+            "rotation": [0, 0, 0],
+            "properties": {
+                "mass": 1,
+                "restitution": 0.3,
+                "friction": 0.3
+            }
+        },
+        {
+            "id": "part_2",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [34, 23, 437],
+            "rotation": [0, 0, 0],
+            "properties": {
+                "mass": 1,
+                "restitution": 0.3,
+                "friction": 0.3
+            }
+        },
+        {
+            "id": "part_3",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [0, 23, 0],
+            "rotation": [0, 0, 0]
+        },
+        {
+            "id": "part_4",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [0, 23, -20],
+            "rotation": [0, 0, 0]
+        },
+        {
+            "id": "part_5",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [0, 23, -40],
+            "rotation": [0, 0, 0]
+        },
+        {
+            "id": "B2",
+            "type": "https://w3id.org/ontoeng/factory#BufferElement",
+            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+            "representations": [
+                {
+                    "file": "Conveyor.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [7, 0, 285],
+            "rotation": [0, 0, 0],
+            "properties": {
+                "mass": 0,
+                "velocity": [0, 0, 5],
+                "restitution": 0.3,
+                "friction": 0.3
+            }
+        },
+        {
+            "id": "B3",
+            "type": "https://w3id.org/ontoeng/factory#BufferElement",
+            "model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+            "representations": [
+                {
+                    "file": "Conveyor2.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [26, -1, 315],
+            "rotation": [0, 0, 0]
+        },
+        {
+            "id": "PickPlaceRobot",
+            "type": "https://w3id.org/ontoeng/factory#Robot",
+            "model": "https://w3id.org/ontoeng/demo/DFLibStations#Robot",
+            "representations": [
+                {
+                    "file": "Pick_and_Place_Robot.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [20, 0, 400],
+            "rotation": [0, 0, 0]
+        },
+        {
+            "id": "part",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "properties": {
+                "mass": 1,
+                "restitution": 0.3,
+                "friction": 0.3
+            }
+        }
+    ]
+}
