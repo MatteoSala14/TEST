@@ -1,0 +1,104 @@
+{
+    "context": {
+        "assetTrail": false,
+        "RepoAnim": "https://MatteoSala14.github.io/TEST/"
+    },
+    "nodes": [
+        {
+            "name": "Part_1",
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "rotation": [
+                            -1.570,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "1000"
+                    },
+                    "event": {
+                        "type": "animationAdditive",
+                        "data": "animations/part_slideZ.txt"
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2000"
+                    },
+                    "event": {
+                        "type": "state",
+                        "descr": "moving"
+                    }
+                }
+            ]
+        },
+      {
+            "name": "Part_2",
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            0,
+                            0,
+                            -400
+                        ],
+                        "rotation": [
+                            -1.570,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "1000"
+                    },
+                    "event": {
+                        "type": "animationAdditive",
+                        "data": "animations/part_slideZ.txt"
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2000"
+                    },
+                    "event": {
+                        "type": "state",
+                        "descr": "moving"
+                    }
+                }
+            ]
+        }
+    ],
+    "bookmarks": [
+        {
+            "name": "bookmark_0",
+            "time": "0"
+        }
+    ]
+}
