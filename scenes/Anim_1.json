@@ -1,0 +1,53 @@
+{
+    "context": {
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoPath": ""
+    },
+    "scene": [
+        "part_1",
+        "part_2"
+    ],
+    "assets": [
+        {
+            "id": "part_1",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                0
+            ],
+            "rotation": [
+                -1.57,
+                0,
+                0
+            ]
+        },
+        {
+            "id": "part_2",
+            "type": "https://w3id.org/ontoeng/factory#Part",
+            "representations": [
+                {
+                    "file": "Part.glb",
+                    "unit": 1
+                }
+            ],
+            "position": [
+                0,
+                0,
+                -400
+            ],
+            "rotation": [
+                -1.57,
+                0,
+                0
+            ]
+        }
+    ]
+}
