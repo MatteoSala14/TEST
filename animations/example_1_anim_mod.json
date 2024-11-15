@@ -1,12 +1,12 @@
 {
     "context": {
         "assetTrail": false,
-        "RepoAnim": "https://difactory.github.io/repository/"
+        "RepoAnim": "https://MatteoSala14.github.io/TEST/"
     },
     "nodes": [
         {
-            "name": "bottle.1",
-            "id": "bottle.1",
+            "name": "part_1",
+            "id": "part_1",
             "actions": [
                 {
                     "trigger": {
@@ -53,7 +53,7 @@
                     },
                     "event": {
                         "type": "animation",
-                        "data": "animations/example_1/bottle_fall.txt"
+                        "data": "animations/part_fall.txt"
                     }
                 },
                 {
