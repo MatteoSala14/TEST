@@ -37,16 +37,7 @@
                         "data": "animations/part_move.txt"
                     }
                 },
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "1000"
-                    },
-                    "event": {
-                        "type": "state",
-                        "descr": "moving"
-                    }
-                }
+                
             ]
         }
     ],
