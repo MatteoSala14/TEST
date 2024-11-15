@@ -1,0 +1,157 @@
+{
+	"context": {
+		"UnitOfMeasureScale": 0.01,
+		"Zup": false,
+		"RepoPath": "https://difactory.github.io/repository/models/DemoFactory/"
+	},
+	"scene": [
+		"hdrSkyBox",
+		"ground",
+		"default_building",
+		"WS01",
+		"WS02",
+		"WS03",
+		"Trolley.1",
+		"Trolley.2",
+		"Trolley.3"
+	],
+	"assets": [
+		{
+			"id": "default_building",
+			"descr": "Plant building. This is the building hosting a factory and the related facilities.",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcBuilding"
+		},
+		{
+			"id": "WorkstationTypeA",
+			"descr": "Machining center",
+			"type": "https://w3id.org/ontoeng/factory#MachineToolType",
+			"representations": [
+				{
+					"file": "machines/TC108/TC108.obj",
+					"unit": 0.01
+				}
+			]
+		},
+		{
+			"id": "WorkstationTypeB",
+			"descr": "Machining center",
+			"type": "https://w3id.org/ontoeng/factory#MachineToolType",
+			"representations": [
+				{
+					"file": "machines/TC52/tc52.obj",
+					"unit": 0.01
+				}
+			]
+		},
+		{
+			"id": "TrolleyTypeA",
+			"descr": "Manual trolley",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcTransportElementType",
+			"representations": [
+				{
+					"file": "elements/trolley/trolley.obj",
+					"unit": 0.01
+				}
+			]
+		},
+		{
+			"id": "WS01",
+			"descr": "Workstation 01",
+			"type": "https://w3id.org/ontoeng/factory#MachineTool",
+			"model": "WorkstationTypeA",
+			"position": [
+				0,
+				0,
+				-500
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		},
+		{
+			"id": "WS02",
+			"descr": "Workstation 02",
+			"type": "https://w3id.org/ontoeng/factory#MachineTool",
+			"model": "WorkstationTypeA",
+			"position": [
+				0,
+				0,
+				-1000
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		},
+		{
+			"id": "WS03",
+			"descr": "Workstation 03",
+			"type": "https://w3id.org/ontoeng/factory#MachineTool",
+			"model": "WorkstationTypeB",
+			"position": [
+				0,
+				0,
+				-1500
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		},
+		{
+			"id": "Trolley.1",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcTransportElement",
+			"model": "TrolleyTypeA",
+			"position": [
+				200,
+				0,
+				-860
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		},
+		{
+			"id": "Trolley.2",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcTransportElement",
+			"model": "TrolleyTypeA",
+			"position": [
+				200,
+				0,
+				-1360
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		},
+		{
+			"id": "Trolley.3",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcTransportElement",
+			"model": "TrolleyTypeA",
+			"position": [
+				200,
+				0,
+				-1860
+			],
+			"rotation": [
+				0,
+				1.5707963267949,
+				0
+			],
+			"placementRelTo": "default_building"
+		}
+	]
+}
