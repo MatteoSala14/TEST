@@ -5,8 +5,8 @@
     },
     "nodes": [
         {
-            "name": "MovingPart",
-            "id": "MovingPart",
+            "name": "part_1",
+            "id": "part_1",
             "actions": [
                 {
                     "trigger": {
