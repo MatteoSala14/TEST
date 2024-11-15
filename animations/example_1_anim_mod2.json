@@ -1,0 +1,49 @@
+{
+    "context": {
+        "assetTrail": false,
+        "RepoAnim": "https://MatteoSala14.github.io/TEST/"
+    },
+    "nodes": [
+        {
+            "name": "Part_1",
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            10,
+                            23,
+                            254
+                        ],
+                        "rotation": [
+                            -1.570,
+                            0,
+                            0
+                        ]
+                    }
+                },
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "1200"
+                    },
+                    "event": {
+                        "type": "animationAdditive",
+                        "data": "animations/part_slideZ.txt"
+                    }
+                }
+           ]
+        }
+    ],
+    "bookmarks": [
+        {
+            "name": "bookmark_0",
+            "time": "0"
+        }
+    ]
+}
