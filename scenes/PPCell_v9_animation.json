@@ -315,20 +315,6 @@
                         "data": "8000"
                     },
                     "event": {
-                        "type": "hide"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "part",
-            "actions": [
-                {
-                    "trigger": {
-                        "type": "timestamp",
-                        "data": "8100"
-                    },
-                    "event": {
                         "type": "show",
                         "position": [
                             31.15,
