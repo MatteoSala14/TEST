@@ -1,0 +1,312 @@
+{
+    "context": {
+        "assetTrail": false,
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoAnim": ""
+    },
+    "nodes": [
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            3.23,
+                            44.60,
+                            399.35
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "1000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            -3.69,
+                            44.55,
+                            399.35
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            12.73,
+                            27.55,
+                            398.70
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            9.63,
+                            23.30,
+                            399.97
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            15.93,
+                            23.30,
+                            399.67
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            12.73,
+                            41.55,
+                            398.70
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            12.63,
+                            44.60,
+                            399.35
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            31.15,
+                            27.60,
+                            398.68
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            27.85,
+                            23.60,
+                            399.98
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            34.45,
+                            23.60,
+                            399.95
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "sequences": [],
+    "bookmarks": []
+}
