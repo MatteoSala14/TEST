@@ -216,7 +216,7 @@
                 {
                     "trigger": {
                         "type": "timestamp",
-                        "data": "6000"
+                        "data": "7000"
                     },
                     "event": {
                         "type": "show",
