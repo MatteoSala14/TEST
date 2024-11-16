@@ -205,7 +205,7 @@
                     },
                     "event": {
                         "type": "attach",
-                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
                     }
                 }
             ]
