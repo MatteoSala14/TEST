@@ -127,7 +127,7 @@
             ]
         },
         {
-            "id": "part_2",
+            "id": "part",
             "actions": [
                 {
                     "trigger": {
@@ -165,7 +165,7 @@
                         "data": "4000"
                     },
                     "event": {
-                        "type": "aattach",
+                        "type": "attach",
                         "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
                     }
                 }
@@ -183,7 +183,8 @@
                         "type": "show",
                         "position": [
                             12.73,
-                            27.55,
+                            41,
+                            55,
                             398.70
                         ],
                         "rotation": [
