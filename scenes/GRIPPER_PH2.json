@@ -2,7 +2,7 @@
 	"context": {
 		"UnitOfMeasureScale": 0.01,
 		"Zup": false,
-		"RepoPath": "https://MatteoSala14.github.io/TEST/Models_P%26P/"
+		"RepoPath": "https://MatteoSala14.github.io/TEST/"
 	},
 	"scene": [
 		"hdrSkyBox",
