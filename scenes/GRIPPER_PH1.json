@@ -2,7 +2,7 @@
     "context": {
         "UnitOfMeasureScale": 0.01,
         "Zup": false,
-        "RepoPath": "https://github.com/MatteoSala14/TEST/"
+        "RepoPath": "https://github.com/MatteoSala14/DFE01/"
     },
     "scene": [
         "part_1",
@@ -32,7 +32,7 @@
             "properties": {
                 "mass": 1,
                 "restitution": 0.5,
-                "friction": 0.5
+                "friction": 0.8
             }
         },
         {
@@ -54,9 +54,9 @@
                 0
             ],
             "properties": {
-                "mass": 0,
+                "mass": 0.1,
                 "restitution": 0.3,
-                "friction": 0.8
+                "friction": 1
             }
         },
         {
@@ -78,9 +78,9 @@
                 0
             ],
             "properties": {
-                "mass": 0,
+                "mass": 0.1,
                 "restitution": 0.3,
-                "friction": 0.8
+                "friction": 1
             }
         }
     ]
