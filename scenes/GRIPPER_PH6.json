@@ -54,6 +54,7 @@
                 0
             ],
             "properties": {
+                "mass":10,
                 "restitution": 0.3,
                 "friction": 0.8
             }
@@ -77,6 +78,7 @@
                 0
             ],
             "properties": {
+                "mass":10,
                 "restitution": 0.3,
                 "friction": 0.8
             }
