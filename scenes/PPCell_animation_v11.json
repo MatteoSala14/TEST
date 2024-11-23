@@ -1,0 +1,2661 @@
+{
+    "context": {
+        "assetTrail": false,
+        "UnitOfMeasureScale": 0.01,
+        "Zup": false,
+        "RepoAnim": "https://github.com/MatteoSala14/DFE01/"
+    },
+    "nodes": [
+        {
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_1_move"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_2_move"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "0"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_3_move"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Box",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2400"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "box_move"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2400"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            -3.69,
+                            44.55,
+                            399.35
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2500"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "2900"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            9.63,
+                            23.30,
+                            399.97
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3000"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            15.93,
+                            23.30,
+                            399.67
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3100"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3200"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3300"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3400"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3800"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "3900"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_dx"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_approach"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4100"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_3_move_second"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4300"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4400"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            27.85,
+                            29.0,
+                            399.98
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4500"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            34.45,
+                            29,
+                            399.95
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4800"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            30.4,
+                            25,
+                            401.8
+                        ],
+                        "rotation": [
+                            -1.57,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "4900"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "Box"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5100"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5400"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "5500"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_sx"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6100"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            9.63,
+                            23.30,
+                            399.97
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6200"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            15.93,
+                            23.30,
+                            399.67
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6300"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6400"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6500"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "6600"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7100"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_dx"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "part_approach"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7500"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7600"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            27.85,
+                            29.0,
+                            399.98
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7700"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            34.45,
+                            29,
+                            399.95
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7800"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            30.4,
+                            27,
+                            410
+                        ],
+                        "rotation": [
+                            -1.57,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "7900"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "Box"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8000"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8100"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8200"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8500"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "8600"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_sx"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9100"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9500"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            9.63,
+                            23.30,
+                            399.97
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9600"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            15.93,
+                            23.30,
+                            399.67
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9700"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9800"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "9900"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "10000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B2"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "10300"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "10400"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_dx"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "10800"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_down_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11100"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            27.85,
+                            29.0,
+                            399.98
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11200"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            34.45,
+                            29,
+                            399.95
+                        ],
+                        "rotation": [
+                            0,
+                            -1.57,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11300"
+                    },
+                    "event": {
+                        "type": "show",
+                        "position": [
+                            30.4,
+                            27.2,
+                            406.8
+                        ],
+                        "rotation": [
+                            -1.57,
+                            0,
+                            0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "id": "part_3",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11400"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "Box"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_1",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11500"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Gripper_2",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11600"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Y"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "11700"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Y_move_up_B1"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "Box",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "12000"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "box_away"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Y",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "12100"
+                    },
+                    "event": {
+                        "type": "attach",
+                        "placementRelTo": "PickPlaceRobot.PP_Floating_Z"
+                    }
+                }
+            ]
+        },
+        {
+            "id": "PickPlaceRobot.PP_Floating_Z",
+            "actions": [
+                {
+                    "trigger": {
+                        "type": "timestamp",
+                        "data": "12200"
+                    },
+                    "event": {
+                        "type": "animation",
+                        "data": "arm_Z_move_sx"
+                    }
+                }
+            ]
+        }
+    ],
+    "sequences": [
+        {
+            "id": "part_1_move",
+            "FPS": "10",
+            "pos": [
+                [
+                    10.28,
+                    23,
+                    290
+                ],
+                [
+                    10.28,
+                    23,
+                    295
+                ],
+                [
+                    10.28,
+                    23,
+                    300
+                ],
+                [
+                    10.28,
+                    23,
+                    305
+                ],
+                [
+                    10.28,
+                    23,
+                    310
+                ],
+                [
+                    10.28,
+                    23,
+                    315
+                ],
+                [
+                    10.28,
+                    23,
+                    320
+                ],
+                [
+                    10.28,
+                    23,
+                    325
+                ],
+                [
+                    10.28,
+                    23,
+                    330
+                ],
+                [
+                    10.28,
+                    23,
+                    335
+                ],
+                [
+                    10.28,
+                    23,
+                    340
+                ],
+                [
+                    10.28,
+                    23,
+                    345
+                ],
+                [
+                    10.28,
+                    23,
+                    350
+                ],
+                [
+                    10.28,
+                    23,
+                    355
+                ],
+                [
+                    10.28,
+                    23,
+                    360
+                ],
+                [
+                    10.28,
+                    23,
+                    365
+                ],
+                [
+                    10.28,
+                    23,
+                    370
+                ],
+                [
+                    10.28,
+                    23,
+                    375
+                ],
+                [
+                    10.28,
+                    23,
+                    380
+                ],
+                [
+                    10.28,
+                    23,
+                    385
+                ],
+                [
+                    10.28,
+                    23,
+                    390
+                ],
+                [
+                    10.28,
+                    23,
+                    395
+                ],
+                [
+                    10.28,
+                    23,
+                    400
+                ],
+                [
+                    10.28,
+                    23,
+                    401.8
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "part_2_move",
+            "FPS": "10",
+            "pos": [
+                [
+                    10.28,
+                    23,
+                    272
+                ],
+                [
+                    10.28,
+                    23,
+                    277
+                ],
+                [
+                    10.28,
+                    23,
+                    282
+                ],
+                [
+                    10.28,
+                    23,
+                    287
+                ],
+                [
+                    10.28,
+                    23,
+                    292
+                ],
+                [
+                    10.28,
+                    23,
+                    297
+                ],
+                [
+                    10.28,
+                    23,
+                    302
+                ],
+                [
+                    10.28,
+                    23,
+                    307
+                ],
+                [
+                    10.28,
+                    23,
+                    312
+                ],
+                [
+                    10.28,
+                    23,
+                    317
+                ],
+                [
+                    10.28,
+                    23,
+                    322
+                ],
+                [
+                    10.28,
+                    23,
+                    327
+                ],
+                [
+                    10.28,
+                    23,
+                    332
+                ],
+                [
+                    10.28,
+                    23,
+                    337
+                ],
+                [
+                    10.28,
+                    23,
+                    342
+                ],
+                [
+                    10.28,
+                    23,
+                    347
+                ],
+                [
+                    10.28,
+                    23,
+                    352
+                ],
+                [
+                    10.28,
+                    23,
+                    357
+                ],
+                [
+                    10.28,
+                    23,
+                    362
+                ],
+                [
+                    10.28,
+                    23,
+                    367
+                ],
+                [
+                    10.28,
+                    23,
+                    372
+                ],
+                [
+                    10.28,
+                    23,
+                    377
+                ],
+                [
+                    10.28,
+                    23,
+                    382
+                ],
+                [
+                    10.28,
+                    23,
+                    383
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "part_3_move",
+            "FPS": "10",
+            "pos": [
+                [
+                    10.28,
+                    23,
+                    254
+                ],
+                [
+                    10.28,
+                    23,
+                    259
+                ],
+                [
+                    10.28,
+                    23,
+                    264
+                ],
+                [
+                    10.28,
+                    23,
+                    269
+                ],
+                [
+                    10.28,
+                    23,
+                    274
+                ],
+                [
+                    10.28,
+                    23,
+                    279
+                ],
+                [
+                    10.28,
+                    23,
+                    284
+                ],
+                [
+                    10.28,
+                    23,
+                    289
+                ],
+                [
+                    10.28,
+                    23,
+                    294
+                ],
+                [
+                    10.28,
+                    23,
+                    299
+                ],
+                [
+                    10.28,
+                    23,
+                    304
+                ],
+                [
+                    10.28,
+                    23,
+                    309
+                ],
+                [
+                    10.28,
+                    23,
+                    314
+                ],
+                [
+                    10.28,
+                    23,
+                    319
+                ],
+                [
+                    10.28,
+                    23,
+                    324
+                ],
+                [
+                    10.28,
+                    23,
+                    329
+                ],
+                [
+                    10.28,
+                    23,
+                    334
+                ],
+                [
+                    10.28,
+                    23,
+                    339
+                ],
+                [
+                    10.28,
+                    23,
+                    344
+                ],
+                [
+                    10.28,
+                    23,
+                    349
+                ],
+                [
+                    10.28,
+                    23,
+                    354
+                ],
+                [
+                    10.28,
+                    23,
+                    359
+                ],
+                [
+                    10.28,
+                    23,
+                    361
+                ],
+                [
+                    10.28,
+                    23,
+                    365
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "arm_Y_move_down_B2",
+            "FPS": "10",
+            "pos": [
+                [
+                    12.73,
+                    41.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    36.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    31.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    27.55,
+                    398.7
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "arm_Y_move_up_B2",
+            "FPS": "10",
+            "pos": [
+                [
+                    12.73,
+                    27.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    32.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    37.55,
+                    398.7
+                ],
+                [
+                    12.73,
+                    41.55,
+                    398.7
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "arm_Z_move_dx",
+            "FPS": "10",
+            "pos": [
+                [
+                    3.23,
+                    44.60,
+                    399.5
+                ],
+                [
+                    8.23,
+                    44.60,
+                    399.5
+                ],
+                [
+                    13.23,
+                    44.6,
+                    399.5
+                ],
+                [
+                    15.18,
+                    44.6,
+                    399.5
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "box_move",
+            "FPS": "10",
+            "pos": [
+                [
+                    31.7,
+                    23,
+                    450
+                ],
+                [
+                    31.7,
+                    23,
+                    445
+                ],
+                [
+                    31.7,
+                    23,
+                    440
+                ],
+                [
+                    31.7,
+                    23,
+                    435
+                ],
+                [
+                    31.7,
+                    23,
+                    430
+                ],
+                [
+                    31.7,
+                    23,
+                    425
+                ],
+                [
+                    31.7,
+                    23,
+                    420
+                ],
+                [
+                    31.7,
+                    23,
+                    415
+                ],
+                [
+                    31.7,
+                    23,
+                    410
+                ],
+                [
+                    31.7,
+                    23,
+                    405
+                ],
+                [
+                    31.7,
+                    23,
+                    402
+                ]
+            ],
+            "rot": [
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ],
+                [
+                    4.71,
+                    -3.14,
+                    3.14
+                ]
+            ]
+        },
+        {
+            "id": "arm_Y_move_down_B1",
+            "FPS": "10",
+            "pos": [
+                [
+                    31.7,
+                    41.55,
+                    398.7
+                ],
+                [
+                    31.7,
+                    36.55,
+                    398.7
+                ],
+                [
+                    31.7,
+                    33.55,
+                    398.7
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "part_approach",
+            "FPS": "10",
+            "pos": [
+                [
+                    10.28,
+                    23,
+                    383
+                ],
+                [
+                    10.28,
+                    23,
+                    388
+                ],
+                [
+                    10.28,
+                    23,
+                    393
+                ],
+                [
+                    10.28,
+                    23,
+                    398
+                ],
+                [
+                    10.28,
+                    23,
+                    401.8
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "part_3_move_second",
+            "FPS": "10",
+            "pos": [
+                [
+                    10.28,
+                    23,
+                    365
+                ],
+                [
+                    10.28,
+                    23,
+                    370
+                ],
+                [
+                    10.28,
+                    23,
+                    375
+                ],
+                [
+                    10.28,
+                    23,
+                    380
+                ],
+                [
+                    10.28,
+                    23,
+                    383
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "arm_Y_move_up_B1",
+            "FPS": "10",
+            "pos": [
+                [
+                    31.7,
+                    33.55,
+                    398.7
+                ],
+                [
+                    31.7,
+                    36.55,
+                    398.7
+                ],
+                [
+                    31.7,
+                    41.55,
+                    398.7
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "arm_Z_move_sx",
+            "FPS": "10",
+            "pos": [
+                [
+                    15.18,
+                    44.6,
+                    399.5
+                ],
+                [
+                    13.23,
+                    44.6,
+                    399.5
+                ],
+                [
+                    8.23,
+                    44.60,
+                    399.5
+                ],
+                [
+                    3.23,
+                    44.60,
+                    399.5
+                ],
+                [
+                    -3.69,
+                    44.6,
+                    399.5
+                ]
+            ],
+            "rot": [
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ],
+                [
+                    0,
+                    -1.57,
+                    0
+                ]
+            ]
+        },
+        {
+            "id": "box_away",
+            "FPS": "10",
+            "pos": [
+                [
+                    31.7,
+                    23,
+                    402
+                ],
+                [
+                    31.7,
+                    23,
+                    397
+                ],
+                [
+                    31.7,
+                    23,
+                    392
+                ],
+                [
+                    31.7,
+                    23,
+                    387
+                ],
+                [
+                    31.7,
+                    23,
+                    382
+                ],
+                [
+                    31.7,
+                    23,
+                    377
+                ],
+                [
+                    31.7,
+                    23,
+                    372
+                ],
+                [
+                    31.7,
+                    23,
+                    367
+                ],
+                [
+                    31.7,
+                    23,
+                    362
+                ],
+                [
+                    31.7,
+                    23,
+                    357
+                ],
+                [
+                    31.7,
+                    23,
+                    352
+                ],
+                [
+                    31.7,
+                    23,
+                    347
+                ],
+                [
+                    31.7,
+                    23,
+                    342
+                ],
+                [
+                    31.7,
+                    23,
+                    337
+                ],
+                [
+                    31.7,
+                    23,
+                    332
+                ],
+                [
+                    31.7,
+                    23,
+                    327
+                ],
+                [
+                    31.7,
+                    23,
+                    322
+                ],
+                [
+                    31.7,
+                    23,
+                    317
+                ],
+                [
+                    31.7,
+                    23,
+                    312
+                ],
+                [
+                    31.7,
+                    23,
+                    307
+                ],
+                [
+                    31.7,
+                    23,
+                    302
+                ]
+            ],
+            "rot": [
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ],
+                [
+                    -1.57,
+                    0,
+                    0
+                ]
+            ]
+        }
+    ],
+    "bookmarks": []
+}
