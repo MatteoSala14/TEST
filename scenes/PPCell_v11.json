@@ -75,7 +75,7 @@
                 290
             ],
             "rotation": [
-                -1.57,
+                0,
                 0,
                 0
             ],
@@ -100,7 +100,7 @@
                 272
             ],
             "rotation": [
-                -1.57,
+                0,
                 0,
                 0
             ],
@@ -125,7 +125,7 @@
                 254
             ],
             "rotation": [
-                -1.57,
+                0,
                 0,
                 0
             ],
@@ -186,11 +186,6 @@
                 4.71,
                 0
             ],
-            "properties": {
-                "mass": 0,
-                "restitution": 0.3,
-                "friction": 0.3
-            }
         },
         {
             "id": "PickPlaceRobot",
@@ -218,7 +213,7 @@
             "type": "https://w3id.org/ontoeng/factory#Part",
             "representations": [
                 {
-                    "file": "Part.glb",
+                    "file": "Part_blue.glb",
                     "unit": 1
                 }
             ],
