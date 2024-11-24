@@ -50,11 +50,6 @@
 			],
 			"properties": {
 				"mass": 0,
-				"velocity": [
-					0,
-					0,
-					-5
-				],
 				"restitution": 0.3,
 				"friction": 0.3
 			}
@@ -77,12 +72,7 @@
 				0,
 				0,
 				0
-			],
-			"properties": {
-				"mass": 1,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "part_2",
@@ -102,12 +92,7 @@
 				0,
 				0,
 				0
-			],
-			"properties": {
-				"mass": 1,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "part_3",
@@ -127,12 +112,7 @@
 				0,
 				0,
 				0
-			],
-			"properties": {
-				"mass": 1,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "B2",
@@ -157,7 +137,7 @@
 			"properties": {
 				"mass": 0,
 				"restitution": 0.3,
-				"friction": 0.3
+				"friction": 0.5
 			}
 		},
 		{
@@ -182,17 +162,7 @@
 			],
 			"connectedTo": [
 				"B1"
-			],
-			"properties": {
-				"mass": 0,
-				"velocity": [
-					0,
-					0,
-					-5
-				],
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "PickPlaceRobot",
@@ -236,7 +206,7 @@
 			],
 			"properties": {
 				"mass": 1,
-				"restitution": 0.3,
+				"restitution": 0.1,
 				"friction": 0.3
 			}
 		},
@@ -335,12 +305,7 @@
 				0,
 				0,
 				0
-			],
-			"properties": {
-				"mass": 1,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "DiffuseSensorBox_2",
