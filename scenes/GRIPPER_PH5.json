@@ -39,7 +39,7 @@
             "id": "gripper_1",
             "representations": [
                 {
-                    "file": "Gripper_1.glb",
+                    "file": "parallelepiped.glb",
                     "unit": 1
                 }
             ],
@@ -63,7 +63,7 @@
             "id": "gripper_2",
             "representations": [
                 {
-                    "file": "Gripper_2.glb",
+                    "file": "parallelepiped.glb",
                     "unit": 1
                 }
             ],
