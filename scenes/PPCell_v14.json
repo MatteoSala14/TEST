@@ -335,12 +335,7 @@
 				0,
 				0,
 				0
-			],
-			"properties": {
-				"mass": 1,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		},
 		{
 			"id": "DiffuseSensorBox_2",
@@ -502,12 +497,7 @@
 			],
 			"connectedTo": [
 				"B2"
-			],
-			"properties": {
-				"mass": 0,
-				"restitution": 0.3,
-				"friction": 0.3
-			}
+			]
 		}
 	]
 }
