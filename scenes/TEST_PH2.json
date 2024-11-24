@@ -470,17 +470,8 @@
 			]
 		},
 		{
-			"id": "PickPlaceRobot.PP_Floating_Z",
-			"parentObject": "PickPlaceRobot.PP_Floating_Z",
-			"properties": {
-				"mass": 100,
-				"restitution": 0.3,
-				"friction": 0.5
-			}
-		},
-		{
 			"id": "PickPlaceRobot.PP_Floating_Y",
-			"parentObject": "PickPlaceRobot.PP_Floating_Y",
+			"parentObject": "PickPlaceRobot.PP_Floating_Z",
 			"properties": {
 				"mass": 5,
 				"restitution": 0.3,
@@ -497,7 +488,8 @@
 			}
 		},
 		{
-			"id": "PickPlaceRobot.PP_Gripper_2"
+			"id": "PickPlaceRobot.PP_Gripper_2",
+			"parentObject": "PickPlaceRobot.PP_Floating_Y"
 		}
 	]
 }
