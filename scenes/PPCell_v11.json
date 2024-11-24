@@ -57,7 +57,7 @@
                     -5
                 ],
                 "restitution": 0.3,
-                "friction": 0.8
+                "friction": 0.3
             }
         },
         {
@@ -163,7 +163,7 @@
                     5
                 ],
                 "restitution": 0.3,
-                "friction": 0.8
+                "friction": 0.3
             }
         },
         {
