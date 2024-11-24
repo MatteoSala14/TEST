@@ -1,0 +1,507 @@
+{
+	"context": {
+		"UnitOfMeasureScale": 0.01,
+		"Zup": false,
+		"RepoPath": "https://github.com/MatteoSala14/TEST/"
+	},
+	"scene": [
+		"B1",
+		"part_1",
+		"part_2",
+		"part_3",
+		"B2",
+		"B3",
+		"PickPlaceRobot",
+		"part",
+		"DiffuseSensorBox_1",
+		"Grid",
+		"Signal_pole",
+		"White_Box",
+		"Box",
+		"DiffuseSensorBox_2",
+		"DiffuseSensorBox_3",
+		"DiffuseSensorBox_4",
+		"DiffuseSensorBox_5",
+		"DiffuseSensorBox_6",
+		"Grid_second",
+		"Grid_Hole",
+		"Slide2"
+	],
+	"assets": [
+		{
+			"id": "B1",
+			"type": "https://w3id.org/ontoeng/factory#BufferElement",
+			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+			"representations": [
+				{
+					"file": "Conveyor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				26,
+				0,
+				315
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 0,
+				"velocity": [
+					0,
+					0,
+					-5
+				],
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "part_1",
+			"type": "https://w3id.org/ontoeng/factory#Part",
+			"representations": [
+				{
+					"file": "Part_green.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				10.28,
+				23,
+				290
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 1,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "part_2",
+			"type": "https://w3id.org/ontoeng/factory#Part",
+			"representations": [
+				{
+					"file": "Part_blue.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				10.28,
+				23,
+				272
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 1,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "part_3",
+			"type": "https://w3id.org/ontoeng/factory#Part",
+			"representations": [
+				{
+					"file": "Part_green.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				10.28,
+				23,
+				254
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 1,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "B2",
+			"type": "https://w3id.org/ontoeng/factory#BufferElement",
+			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+			"representations": [
+				{
+					"file": "ConveyorB2.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				19.15,
+				0,
+				385
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 0,
+				"velocity": [
+					0,
+					0,
+					5
+				],
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "B3",
+			"type": "https://w3id.org/ontoeng/factory#BufferElement",
+			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+			"representations": [
+				{
+					"file": "Slide.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				41,
+				23,
+				260
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 0,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "PickPlaceRobot",
+			"type": "https://w3id.org/ontoeng/factory#Robot",
+			"model": "https://w3id.org/ontoeng/demo/DFLibStations#Robot",
+			"representations": [
+				{
+					"file": "Pick_and_Place_Robot.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				20,
+				0,
+				400
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			]
+		},
+		{
+			"id": "part",
+			"type": "https://w3id.org/ontoeng/factory#Part",
+			"representations": [
+				{
+					"file": "Part_blue.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				0,
+				0,
+				0
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 1,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "DiffuseSensorBox_1",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				41,
+				22,
+				378
+			],
+			"rotation": [
+				4.71,
+				-1.59,
+				0
+			]
+		},
+		{
+			"id": "Grid",
+			"representations": [
+				{
+					"file": "Grid.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				-27,
+				53.06,
+				377
+			],
+			"rotation": [
+				0,
+				0,
+				-1.57
+			]
+		},
+		{
+			"id": "Signal_pole",
+			"representations": [
+				{
+					"file": "Signal_pole.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				72.41,
+				0,
+				378.78
+			],
+			"rotation": [
+				-1.57,
+				0,
+				0
+			]
+		},
+		{
+			"id": "White_Box",
+			"representations": [
+				{
+					"file": "White_Box.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				87.48,
+				79.13,
+				368.45
+			],
+			"rotation": [
+				0,
+				0,
+				-1.57
+			]
+		},
+		{
+			"id": "Box",
+			"type": "https://w3id.org/ontoeng/factory#Pallet",
+			"representations": [
+				{
+					"file": "Box_part.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				31.7,
+				23,
+				450
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 1,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		},
+		{
+			"id": "DiffuseSensorBox_2",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				41,
+				22,
+				362
+			],
+			"rotation": [
+				4.71,
+				-1.59,
+				0
+			]
+		},
+		{
+			"id": "DiffuseSensorBox_3",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				41,
+				22,
+				270
+			],
+			"rotation": [
+				4.71,
+				-1.59,
+				0
+			]
+		},
+		{
+			"id": "DiffuseSensorBox_4",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				3.31,
+				22,
+				267
+			],
+			"rotation": [
+				4.71,
+				1.57,
+				0
+			]
+		},
+		{
+			"id": "DiffuseSensorBox_5",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				3.31,
+				22,
+				367
+			],
+			"rotation": [
+				4.71,
+				1.57,
+				0
+			]
+		},
+		{
+			"id": "DiffuseSensorBox_6",
+			"type": "https://standards.buildingsmart.org/IFC/DEV/IFC4/ADD1/OWL#IfcSensor",
+			"representations": [
+				{
+					"file": "Sensor.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				3.31,
+				22,
+				432
+			],
+			"rotation": [
+				4.71,
+				1.57,
+				0
+			]
+		},
+		{
+			"id": "Grid_second",
+			"representations": [
+				{
+					"file": "Grid.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				-27,
+				53.06,
+				442.85
+			],
+			"rotation": [
+				0,
+				0,
+				-1.57
+			]
+		},
+		{
+			"id": "Grid_Hole",
+			"representations": [
+				{
+					"file": "Grid_Hole.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				95.02,
+				40.30,
+				358.39
+			],
+			"rotation": [
+				0,
+				0,
+				1.57
+			]
+		},
+		{
+			"id": "Slide2",
+			"type": "https://w3id.org/ontoeng/factory#BufferElement",
+			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
+			"representations": [
+				{
+					"file": "Slide2.glb",
+					"unit": 1
+				}
+			],
+			"position": [
+				4.95,
+				23.04,
+				440.30
+			],
+			"rotation": [
+				0,
+				0,
+				0
+			],
+			"properties": {
+				"mass": 0,
+				"restitution": 0.3,
+				"friction": 0.3
+			}
+		}
+	]
+}
