@@ -25,7 +25,6 @@
 		"DiffuseSensorBox_6",
 		"Grid_second",
 		"Grid_Hole",
-		"Slide2"
 	],
 	"assets": [
 		{
@@ -140,7 +139,7 @@
 			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
 			"representations": [
 				{
-					"file": "ConveyorB2.glb",
+					"file": "ConveyorB2_Slide2.glb",
 					"unit": 1
 				}
 			],
@@ -484,40 +483,6 @@
 				0,
 				1.57
 			]
-		},
-		{
-			"id": "Slide2",
-			"type": "https://w3id.org/ontoeng/factory#BufferElement",
-			"model": "https://w3id.org/ontoeng/demo/DFLibStations#ConveyorBuffer5",
-			"representations": [
-				{
-					"file": "Slide2.glb",
-					"unit": 1
-				}
-			],
-			"position": [
-				4.95,
-				23.04,
-				440.30
-			],
-			"rotation": [
-				0,
-				0,
-				0
-			],
-			"connectedTo": [
-				"B2"
-			],
-			"properties": {
-				"mass": 0,
-				"velocity": [
-					0,
-					0,
-					5
-				],
-				"restitution": 0.3,
-				"friction": 0.3
-			}
 		}
 	]
 }
