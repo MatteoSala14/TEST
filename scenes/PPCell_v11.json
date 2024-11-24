@@ -2,7 +2,7 @@
     "context": {
         "UnitOfMeasureScale": 0.01,
         "Zup": false,
-        "RepoPath": "https://github.com/MatteoSala14/DFE01/"
+        "RepoPath": "https://github.com/MatteoSala14/TEST/"
     },
     "scene": [
         "B1",
@@ -185,7 +185,7 @@
                 1.57,
                 4.71,
                 0
-            ],
+            ]
         },
         {
             "id": "PickPlaceRobot",
